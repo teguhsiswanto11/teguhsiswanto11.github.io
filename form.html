@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="logo">Form</h1>
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="element.html">Element</a>
+        </li>
+        <li>
+            <a href="form.html">Form</a>
+        </li>
+        <li>
+            <a href="tabel.html">Table</a>
+        </li>
+        <li>
+            <a href="biodata.html">Biodata</a>
+        </li>
+    </ul>
+    <hr>
+    <!-- Simple form which will send a GET request -->
+    <form action="" method="get">
+        <label for="GET-name">Name:</label>
+        <input id="GET-name" type="text" name="name">
+        <input type="submit" value="Save">
+    </form>
+
+    <!-- Simple form which will send a POST request -->
+    <form action="" method="post">
+        <label for="POST-name">Name:</label>
+        <input id="POST-name" type="text" name="name">
+        <input type="submit" value="Save">
+    </form>
+
+    <!-- Form with fieldset, legend, and label -->
+    <form action="" method="post">
+        <fieldset>
+            <legend>Title</legend>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">Click me</label>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
