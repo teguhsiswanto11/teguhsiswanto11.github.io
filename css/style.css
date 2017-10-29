@@ -1,4 +1,4 @@
-body {
+/* body {
     background: #f7f5f1;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
@@ -46,4 +46,9 @@ hr {
 }
 img {
     border-radius: 100%;
+} */
+.imgsize{
+    height: 500px;
+    /* width: 1024px; */
+    max-width: 100%;
 }
