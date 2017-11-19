@@ -1,350 +1,381 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="assets/foundation-6/css/foundation.min.css">
-    <link rel="stylesheet" href="assets/foundation-6/css/app.css">
-</head>
-<body>
-<div class="grid-container full">
-<!-- navigation -->
-<nav class="top-bar topbar-responsive">
-  <div class="top-bar-title">
-    <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-    </span>
-    <a class="topbar-responsive-logo" href="#"><strong>Site Title</strong></a>
-  </div>
-  <div id="topbar-responsive" class="topbar-responsive-links">
-    <div class="top-bar-right">
-      <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Works</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact</a></li>
-        <li>
-          <button type="button" class="button hollow topbar-responsive-button">Categories</button>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Training Bootstrap</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/app.css" rel="stylesheet">
+    <!-- <link href="assets/css/main.css" rel="stylesheet"> -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="loading">
+      <!-- Navigation -->
+  <nav class="navbar-inverse navbar-default navbar-fixed-top">
+  <div class="container ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Taman Lalu lintas Bandung</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li class=""><a href="#">Jadwal &#38; Harga</a></li>
+        <li class=""><a href="#">Wahana</a></li>
+        <li class=""><a href="#">Fasilitas</a></li>
+        <li class=""><a href="#">Cuaca &#38; Peta</a></li>
+        <li class=""><a href="#">Kontak</a></li>
+        <li class=""><a href="#">Tentang</a></li>
+        <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
         </li>
       </ul>
-    </div>
-  </div>
+    </div><!-- /.navbar-collapse -->
+
+  </div><!-- /.container-fluid -->
 </nav>
+   
+ <!-- <div class="intro-header">
+        <div class="container">
 
-<div class="hero-full-screen">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Taman Lalu Lintas </h1>
+                        <h3>Ade Irma Suryani Nasution, Kota Bandung</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-  <div class="top-content-section">
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text"><img src="http://placehold.it/75x30" alt="logo"></li>
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+        </div><!-- /.container -->
 
-  <div class="middle-content-section">
-    <h1>Super Compelling Headline</h1>
-    <button class="button large">Button</button>
-    <button class="button large">Button</button>
-  </div>
-
-  <div class="bottom-content-section" data-magellan data-threshold="0">
-    <a href="#main-content-section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
-  </div>
-
-</div>
-
-<div id="main-content-section" data-magellan-target="main-content-section">
-  <!-- your content goes here -->
-</div>
+    </div><!-- /.intro-header --> -->
 
 
-<!-- CONTENT -->
-<div class="featured-image-block-grid">
-  <div class="featured-image-block-grid-header small-10 medium-8 large-7 cells text-center">
-    <h2>Top Destinations</h2>
-    <p>Start planning your travels here with the latest deals for popular destinations.</p>
-  </div>
-  <div class="grid-x margin-x large-up-4 small-up-2">
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=899" />
-        <p class="text-center featured-image-block-title">New York</p>
-      </a>
-    </div>
+<!-- carousel -->
+<div class="container-full">
     
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=693" />
-        <p class="text-center featured-image-block-title">San Francisco</p>
-      </a>
-    </div>
-    
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=452" />
-        <p class="text-center featured-image-block-title">Las Vegas</p>
-      </a>
-    </div>
-    
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=792" />
-        <p class="text-center featured-image-block-title">Sacramento</p>
-      </a>
-    </div>
-    
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=667" />
-        <p class="text-center featured-image-block-title">Los Angeles</p>
-      </a>
-    </div>
-  
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=249" />
-        <p class="text-center featured-image-block-title">Chicago</p>
-      </a>
-    </div>
-    
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=382" />
-        <p class="text-center featured-image-block-title">Boston</p>
-      </a>
-    </div>
+<div id="carousel-img-tll" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-img-tll" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-img-tll" data-slide-to="1"></li>
+    <li data-target="#carousel-img-tll" data-slide-to="2"></li>
+  </ol>
 
-    <div class="featured-image-block cell">
-     <a href="#">
-        <img src="https://unsplash.it/600/440?image=1075" />
-        <p class="text-center featured-image-block-title">Seattle</p>
-      </a>
-    </div>
-  </div>
-</div>
-
-
-  
-<div class="callout cell primary">
-
-<div class="timeline">
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 21h-9v-2h9v2zm6.695-2.88l-3.314-3.13-1.381 1.47 4.699 4.54 8.301-8.441-1.384-1.439-6.921 7zm-6.695-1.144h-9v-2h9v2zm8-3.976h-17v-2h17v2zm7-4h-24v-2h24v2zm0-4h-24v-2h24v2z"/></svg>
-    </div>
-    <div class="timeline-content">
-      <p class="timeline-content-date">2008</h2>
-      <p>The ZURB Style Guide is created to help us speed up our work. It’s a handy collection of HTML, CSS and Javascript that we use on every client project. The ideas of ZURB Style Guide evolve over the years and form the basis for a new framework, Foundation.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
-    </div>
-    <div class="timeline-content right">
-      <p class="timeline-content-date">2010</h2>
-      <p>ZURB style guide was solidified and named Foundation. It is being used internally on all client projects and ZURB sites and apps.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M17 24h-10l-2-14h14l-2 14zm-.592-10h-8.816l.571 4h7.674l.571-4zm1.631-8c0 .922 1.092 1.618 1.961 1.618v1.382h-16v-1.382c.87 0 2-.697 2-1.618h12.039zm-7.73-.691c2.819-2.143-.594-2.353.077-3.868-2.361 2.113.85 2.169-.077 3.868zm2.486-.001c4.236-3.238-.877-3.067.105-5.308-3.382 2.895 1.259 2.959-.105 5.308z"/></svg>
-    </div>
-    <div class="timeline-content">
-      <p class="timeline-content-date">2011</h2>
-      <p>
-        <a href="http://foundation.zurb.com/sites/docs/v/2.2.1/" target="_blank">Foundation 2.0</a> is released to the public as an open source project! Foundation is the first responsive front-end framework and helps lead the charge for RWD across the web.
-      </p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 11.5c0 3.613-2.951 6.5-6.475 6.5-2.154 0-4.101-1.214-5.338-3h-2.882l-1.046-1.013-1.302 1.019-1.362-1.075-1.407 1.081-4.188-3.448 3.346-3.564h8.841c1.145-1.683 3.104-3 5.339-3 3.497 0 6.474 2.866 6.474 6.5zm-10.691 1.5c.98 1.671 2.277 3 4.217 3 2.412 0 4.474-1.986 4.474-4.5 0-2.498-2.044-4.5-4.479-4.5-2.055 0-3.292 1.433-4.212 3h-9.097l-1.293 1.376 1.312 1.081 1.38-1.061 1.351 1.066 1.437-1.123 1.715 1.661h3.195zm5.691-3.125c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"/></svg>
-    </div>
-    <div class="timeline-content right">
-      <p class="timeline-content-date">2012</h2>
-      <p>
-        <a href="http://foundation.zurb.com/sites/docs/v/3.2.5/" target="_blank">Foundation 3.0</a> is released! This version comes with Sass and is the first framework to use mixins and Sass partials.
-      </p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M7.467 0c1.102.018 5.555 2.549 6.386 8.558.905-.889 1.409-3.664 1.147-4.843 3.952 2.969 6 6.781 6 11.034 0 5.094-3.43 9.251-8.963 9.251-5.728 0-9.037-3.753-9.037-8.276 0-6.26 5.052-7.62 4.467-15.724zm3.262 19.743c-.749.848-.368 1.945.763 2.045 1.035.093 1.759-.812 2.032-1.792.273-.978.09-2.02-.369-2.893-.998 1.515-1.52 1.64-2.426 2.64zm4.42 1.608c2.49-1.146 3.852-3.683 3.852-6.58 0-2.358-.94-4.977-2.5-7.04-.743 2.867-2.924 3.978-4.501 4.269.05-3.219-.318-6.153-2.602-8.438-.296 4.732-4.321 7.63-4.398 12.114-.029 1.511.514 3.203 1.73 4.415.491.489 1.054.871 1.664 1.16-.121-.608-.062-1.254.195-1.848.911-2.106 3.333-2.321 4.202-5.754.952.749 3.275 3.503 2.778 6.358-.082.469-.224.923-.42 1.344z"/></svg>
-    </div>
-    <div class="timeline-content">
-      <p class="timeline-content-date">2013 - <span class="timeline-content-month">february</span></p>
-      <p>This year saw not one, but three releases to Foundation! <a href="http://foundation.zurb.com/sites/docs/v/4.3.2/index.html" target="_blank">Version 4</a> went <a href="http://zurb.com/word/mobile-first" target="_blank">mobile first</a>, added many new components, and came with a visual update. Our responsive image plugin called <a href="http://foundation.zurb.com/sites/docs/v/4.3.2/components/interchange.html" target="_blank">Interchange</a> was added to Foundation to make sites built with it load even faster.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2017/96/iconmonstr-candy-26.png" class="" height="21" width="21" alt="">
-    </div>
-    <div class="timeline-content right">
-      <p class="timeline-content-date">2013 - <span class="timeline-content-month">november</span></p>
-      <p>Foundation 5 is all about speed. It made learning, using and developing with the framework faster than ever! More new components like <a href="http://foundation.zurb.com/docs/components/equalizer.html" target="_blank">Equalizer</a>, <a href="http://foundation.zurb.com/docs/components/offcanvas.html" target="_blank">Off-canvas</a>, and Icon-bar make a more complete package. Our responsive content plugin, <a href="http://foundation.zurb.com/sites/docs/v/4.3.2/components/interchange.html" target="_blank">Interchange</a> can now swap in HTML content and images based on screen size.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2017/96/iconmonstr-fast-food-10.png" class="" height="21" width="21" alt="">
-    </div>
-    <div class="timeline-content">
-      <p class="timeline-content-date">2013 - <span class="timeline-content-month">november</span></p>
-      <p><a href="http://foundation.zurb.com/emails.html" target="_blank">Foundation for Emails (formerly Ink)</a>, our responsive email framework is launched at the end of the year and helps designers easily create beautiful, responsive emails.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2017/96/iconmonstr-fast-food-12.png" class="" height="21" width="21" alt="">
-    </div>
-    <div class="timeline-content right">
-      <p class="timeline-content-date">2014 - <span class="timeline-content-month">november</span></p>
-      <p>We launched <a href="http://zurb.com/article/1362/foundation-for-apps-is-here" target="_blank">Foundation for Apps</a>, the first front-end framework created for developing fully responsive web apps.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2017/96/iconmonstr-fast-food-5.png" class="" height="21" width="21" alt="">
-    </div>
-    <div class="timeline-content">
-      <p class="timeline-content-date">2015</h2>
-      <p><a href="http://zurb.com/article/1416/foundation-6-is-here" target="_blank">Foundation for Sites 6 is released</a>. Faster, lighter, more versatile, more flexible and more powerful than ever before to get your projects from Prototype to Production.</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2017/96/iconmonstr-check-mark-18.png" class="" height="21" width="21" alt="">
-    </div>
-    <div class="timeline-content right">
-      <p class="timeline-content-date">2016</h2>
-      <p><a href="http://zurb.com/article/1432/foundation-for-emails-2-is-here" target="_blank">Foundation for Emails 2</a> is launched, revolutionizing email development through a workflow that uses the latest web technologies.</p>
-    </div>
-  </div>
-
-</div>
-
-</div><!-- callout -->
-
-
-<div class="grid-x">
-  <div class="large-8">
-    
-<!-- start ORBIT Carousel -->
-<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-  <div class="orbit-wrapper">
-    <div class="orbit-controls">
-      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-    </div>
-    <ul class="orbit-container">
-      <li class="is-active orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="images/01.webp" alt="Space">
-          <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="images/02.webp" alt="Space">
-          <figcaption class="orbit-caption">Lets Rocket!</figcaption>
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="images/03.webp" alt="Space">
-          <figcaption class="orbit-caption">Encapsulating</figcaption>
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="images/04.webp" alt="Space">
-          <figcaption class="orbit-caption">Outta This World</figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
-  <nav class="orbit-bullets">
-    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-  </nav>
-
-  </div>
-</div>
-
-
-
-
-<footer class="responsive-blog-footer">
-  <div class="grid-x">
-    <div class="medium-8 cell small-order-2 medium-order-1 about-container">
-      <div class="grid-x">
-        <div class="hide-for-small-only medium-4 cell about-section">
-          <img src="https://placehold.it/250x250">
-        </div>
-        <div class="medium-8 cell about-section">
-          <h4> About Me</h4>
-          <p>paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am</p>
-          <a href="">Read More</a>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/img/design-1.jpg" alt="Teks ini akan muncul Ketika Gambar Slider tidak muncul" style="height: 750px; width: 100%;">
+      <div class="carousel-caption">
+        <div class="intro-message">
+        <h1 class="animated hinge slideInUp">Ini Judul Carousel</h1>
+        <h3 class="animated fadeInRight">Ini adalah deskripsi dari judul di atas</h3>
+        <hr class="intro-divider">
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 cell small-order-1 medium-order-2 mailing-container">
-      <h4 class="mailing-list">Join my mailing list</h4>
-      <input type="text" placeholder="Email Address">
-      <a class="button expanded subscribe-button" href="#">Subscribe Now</a>
+    <div class="item">
+      <img src="assets/img/design-2.jpg" alt="Teks ini akan muncul Ketika Gambar Slider tidak muncul" style="height: 750px; width: 100%;">
+      <div class="carousel-caption">
+        <div class="intro-message">
+        <h1 class="animated hinge slideInUp">Ini Judul Carousel</h1>
+        <h3 class="animated fadeInRight">Ini adalah deskripsi dari judul di atas</h3>
+        <hr class="intro-divider">
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="grid-x tag-search">
-    <div class="cell">
-      <h4>Search by Tag</h4>
-      <ul class="menu simple tag-section">
-        <li><a href="">word</a></li>
-        <li><a href="">word</a></li>
-        <li><a href="">word</a></li>
-        <li><a href="">word</a></li>
-        <li><a href="">word</a></li>
-        <li><a href="">word</a></li>
-        <li><a href="">word</a></li>
-      </ul>
+    <div class="item">
+      <img src="assets/img/design-3.jpg" alt="Teks ini akan muncul Ketika Gambar Slider tidak muncul" style="height: 750px; width: 100%;">
+      <div class="carousel-caption">
+        <div class="intro-message">
+        <h1 class="animated hinge slideInUp">Ini Judul Carousel</h1>
+        <h3 class="animated fadeInRight">Ini adalah deskripsi dari judul di atas</h3>
+        <hr class="intro-divider">
+        </div>
+      </div>
     </div>
+
   </div>
-  <div class="grid-x cell flex-container align-justify">
-     <p> all rights reserved</p>
-    <div class="up-argrid-x">
-      <a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-img-tll" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-img-tll" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+
+
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <section>
+                      
+                    <h2 class="section-heading animated bounceInRight">Taman Tematik Pertama:<br>di Kota Bandung</h2>
+                    <p class="lead animated slideInRight">Terletak di Pusat Kota Bandung, Jl.Belitung No.1<br>
+                      Kenapa taman tematik penting ? <br>
+                      karena untuk membedakan aktivitas sosial, kalu ada 10 taman sama semua pasti akan bosan.
+                    </p>
+                    </section>    
+
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <section>
+                    <img class="img-responsive animated fadeIn" src="assets/img/tll/wall-1.jpg" alt="">
+                  </section>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
-  </div>
-</footer>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="assets/img/tll/wall-2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+
+    <div id="third">
+      
+    </div>
+
+
+    <div class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+              
+            <hr class="section-heading-spacer">
+            <!-- <div class="clearfix"></div> -->
+            <div class="post">
+                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+            </div>
+          </div>
+            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+              <img class="img-responsive" src="assets/img/phones.png" alt="">
+            </div>        
+            
+        </div>
+        
+      </div>
+      <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect to Start Bootstrap:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
 
 
 
-</div><!-- end container -->
-    <script src="assets/foundation-6/js/vendor/jquery.js"></script>
-    <script src="assets/foundation-6/js/vendor/what-input.js"></script>
-    <script src="assets/foundation-6/js/vendor/foundation.js"></script>
-    <script src="assets/foundation-6/js/app.js"></script>
-</body>
+    <div class="container-fluid">
+      <!-- Content here -->
+        <h1>Hello, world!</h1>
+        <div class="jumbotron">
+          <h1>Hello, world!</h1>
+          <p>...</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+        <i class="fa fa-camera-retro fa-lg"></i> fa-camera-retro lg <br>
+        <i class="fa fa-camera-retro fa-2x"></i> fa-camera-retro 2x <br>
+        <i class="fa fa-camera-retro fa-3x"></i> fa-camera-retro 3x <br>
+        <i class="fa fa-camera-retro fa-4x"></i> fa-camera-retro 4x <br>
+        <i class="fa fa-camera-retro fa-5x"></i> fa-camera-retro 5x <br>
+        <i class="fa fa-camera-retro fa-lg"></i> fa-camera-retro lg <br>
+        <i class="fa fa-camera-retro fa-2x"></i> fa-camera-retro 2x <br>
+        <i class="fa fa-camera-retro fa-3x"></i> fa-camera-retro 3x <br>
+        <i class="fa fa-camera-retro fa-4x"></i> fa-camera-retro 4x <br>
+        <i class="fa fa-camera-retro fa-5x"></i> fa-camera-retro 5x <br>
+    
+        <div class="panel panel-default">
+          <div class="panel-body">
+            Basic panel example
+          </div>
+        </div>
+
+
+    </div><!-- EndContainer -->
+
+     <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://teguhsiswanto11-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.viewportchecker.js"></script>
+
+    <!-- <script src="assets/js/jquery.onepage-scroll.js"></script> -->
+    <!-- <link href="assets/js/onepage-scroll.css" rel="stylesheet" type="text/css"> -->
+
+    <script src="assets/js/app.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#third').parallax("10%",0.6);
+    });
+
+    // show and hide when scrolling
+    jQuery(document).ready(function() {
+    jQuery('.post').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 100
+       });
+    });
+
+    </script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script id="dsq-count-scr" src="//teguhsiswanto11-github-io.disqus.com/count.js" async></script>
+  </body>
 </html>
