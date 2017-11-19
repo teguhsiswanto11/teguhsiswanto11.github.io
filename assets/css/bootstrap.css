@@ -6455,7 +6455,7 @@ button.close {
     padding-bottom: 12rem;
   }
   .carousel-indicators {
-    bottom: 90%/*20px*/;
+    bottom: 88% /*20px*/;
     left: 10%;
   }
 }
