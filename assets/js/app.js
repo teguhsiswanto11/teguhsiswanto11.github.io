@@ -79,14 +79,14 @@ $(window).scroll(function() {
     };
 })(jQuery);
 
-
+// merubah warna Navigation saat scroll kebawah
 $(window).scroll(function() {    
 
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 500) {
+    if (scroll >= 800) {
         $(".navbar-inverse").addClass("navbar").removeClass("navbar-inverse");
     } else {
-        $(".navbar").removeClass("navbar-inverse");    
+        $(".navbar").addClass("navbar-inverse");    
     }
 });

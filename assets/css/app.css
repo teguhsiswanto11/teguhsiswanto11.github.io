@@ -182,28 +182,3 @@ p.copyright {
    padding-top: 20px;
 }
 
-/* Hide and Show*/
-.hidden{
-     opacity:0;
-}
-.visible{
-     opacity:1;
-}
-
-
-
-/*Text Animation*/
-.loading {
-    background: url('../img/ico_loading.gif') no-repeat center center;
-}
-section {
-    opacity: 1;
-    /*-webkit-transition:opacity .6s;
-    -moz-transition:opacity .6s;
-    -o-transition:opacity .6s;
-    transition: opacity .6s;*/
-}
-.loaded section {
-    /*opacity: 1;*/
-}
-
