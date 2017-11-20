@@ -167,6 +167,10 @@ p.copyright {
 .logo-black{
   background: url(../img/logo-talentbandung-black-small.png) ;
 }
+.no-crash{
+  background: #333;
+  transition: 1s ease-out;
+}
 
 
 /* first Use Prallax Code*/

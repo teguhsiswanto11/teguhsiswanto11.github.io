@@ -83,14 +83,20 @@ $(window).scroll(function() {
 $(window).scroll(function() {    
 
     var scroll = $(window).scrollTop();
-
-    if (scroll >= 612) {
+    //ganti warna navbar
+    if (scroll >= 644) {
         $(".navbar-inverse").addClass("navbar").removeClass("navbar-inverse");
     } else {
         $(".navbar").addClass("navbar-inverse");    
+    } 
+    // ganti warna background
+    if (scroll >= 100 && scroll <= 644) {
+        $(".navbar-right").addClass("no-crash");
+    } else {
+        $(".no-crash").removeClass("no-crash");    
     }
-
-    if (scroll >= 700) {
+    // ganti warna logo
+    if (scroll >= 644) {
         $(".logo-white").addClass("logo-black").removeClass("logo-white");
     } else {
         $(".logo-black").addClass("logo-white").removeClass("logo-black");    
