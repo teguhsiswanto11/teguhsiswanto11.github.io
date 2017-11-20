@@ -4589,8 +4589,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: rgba(255, 255, 255, 0.0); /*#222*/
+  /*border-color: #080808;*/
+  border: none;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4604,12 +4605,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #f1f1f1; /*#9d9d9d*/
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: ;
+  background-color: rgba(51, 51, 51, 0.4); /*transparent*/
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -4636,6 +4638,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
+  margin-top: 2rem;
+  transition: 1s ease-in-out;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -6455,7 +6459,7 @@ button.close {
     padding-bottom: 12rem;
   }
   .carousel-indicators {
-    bottom: 88% /*20px*/;
+    bottom: 84% /*20px*/;
     left: 10%;
   }
 }

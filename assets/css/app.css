@@ -152,15 +152,39 @@ p.copyright {
 }
 
 
-/* first Use Prallax Code*/
-#second{
-    background: #161616;
-    height: 300px;
+/* Overlay for Carousel */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .4;
 }
-#second p{ 
-  padding-top: 20px;
-  color: #FFF;
-  text-align: center
+.logo-white{
+  background: url(../img/logo-talentbandung-white-small.png);
+}
+.logo-black{
+  background: url(../img/logo-talentbandung-black-small.png) ;
+}
+
+
+/* first Use Prallax Code*/
+#first{
+    background: url(../img/banner-bg.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+#second{ 
+  background: url(../img/design-2.jpg) ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px 0px;
 }
 
 #third{

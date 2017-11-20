@@ -84,9 +84,15 @@ $(window).scroll(function() {
 
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 800) {
+    if (scroll >= 612) {
         $(".navbar-inverse").addClass("navbar").removeClass("navbar-inverse");
     } else {
         $(".navbar").addClass("navbar-inverse");    
+    }
+
+    if (scroll >= 700) {
+        $(".logo-white").addClass("logo-black").removeClass("logo-white");
+    } else {
+        $(".logo-black").addClass("logo-white").removeClass("logo-black");    
     }
 });
