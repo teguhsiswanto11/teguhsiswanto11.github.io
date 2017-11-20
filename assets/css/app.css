@@ -150,11 +150,8 @@ p.copyright {
 /* Navigation */
 .navbar-inverse {
   background-color: rgba(255, 255, 255, 0.0); 
-  border: none;
 }
  .navbar-right {
-    float: right !important;
-    margin-right: -15px;
     transition: 1s ease-out;
 }
 .navbar-inverse .navbar-nav > li > a {
@@ -162,9 +159,11 @@ p.copyright {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
   margin-top: 2rem;
   transition: 1s ease-in-out;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    transition: 2s ease;
 }
 
 /* Overlay for Carousel */
