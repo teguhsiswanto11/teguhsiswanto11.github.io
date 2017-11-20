@@ -150,6 +150,7 @@ p.copyright {
 /* Navigation */
 .navbar-inverse {
   background-color: rgba(255, 255, 255, 0.0); 
+  border: none;
 }
  .navbar-right {
     transition: 1s ease-out;
