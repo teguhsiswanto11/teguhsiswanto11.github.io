@@ -89,7 +89,7 @@ $(window).scroll(function() {
     } else {
         $(".navbar").addClass("navbar-inverse");    
     } 
-    // ganti warna background
+    // ganti warna background navigation
     if (scroll >= 100 && scroll <= 644) {
         $(".navbar-right").addClass("no-crash");
     } else {
