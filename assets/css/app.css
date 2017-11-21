@@ -176,6 +176,9 @@ p.copyright {
     background-color: #080d15;
     opacity: .4;
 }
+.overlay.orange {
+   background-color: #ff9900
+}
 .logo-white{
   background: url(../img/logo-talentbandung-white-small.png);
 }
@@ -224,6 +227,59 @@ p.copyright {
    color: #070707;
    padding-top: 20px;
 }
+
+/* Floating for Infinite animation */
+.floating{
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-duration: 5.5s;
+
+  /*-webkit-animation-name: floating;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.5s;*/
+/*  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+*/
+}
+@keyframes floating {
+  0% {
+    transform: translateX(0%);  
+  }
+  20% {
+    transform: translate(20%,0);  
+  } 
+  40% {
+    transform: translate(20%,40%);  
+  } 
+  60% {
+    transform: translate(-40%,40%);  
+  } 
+  80% {
+    transform: translate(-40%,-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }     
+}
+
+/*@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(10%);  
+  }
+  50% {
+    -webkit-transform: translateX(20%);  
+  } 
+  100% {
+    -webkit-transform: translateY(100%);
+  }     
+}*/
+
 
 /* Testimonial Card */
 figure.snip1232 {
