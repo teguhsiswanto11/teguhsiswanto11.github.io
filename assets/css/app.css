@@ -226,7 +226,7 @@ p.copyright {
 
 }
  #fifth p{ 
-   text-align: center;
+   /*text-align: center;*/
    color: #070707;
    padding-top: 20px;
 }
@@ -374,3 +374,11 @@ figure.snip1232 .author span {
   font-weight: 500;
 }
 
+.content-section-b .thumbnail{
+  width: 100%;
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
