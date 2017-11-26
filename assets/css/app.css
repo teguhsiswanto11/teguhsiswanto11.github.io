@@ -69,11 +69,12 @@
 .content-section-a {
   padding: 50px 0;
   background-color: #f8f8f8;
+  font-weight: 500;
 }
 
 .content-section-b {
   padding: 50px 0;
-  border-top: 1px solid #e7e7e7;
+  /*border-top: 1px solid #e7e7e7;*/
   border-bottom: 1px solid #e7e7e7;
 }
 
@@ -164,7 +165,7 @@ p.copyright {
   transition: 1s ease-in-out;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    transition: 2s ease;
+    transition: 1s ease;
 }
 
 /* Overlay for Carousel */
@@ -219,8 +220,10 @@ p.copyright {
 }
 
 #fifth{
-    background: #E0D1A8;
-    height: 200px;
+    background: url(../img/bg/2Bi1Wys.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
 }
  #fifth p{ 
    text-align: center;
