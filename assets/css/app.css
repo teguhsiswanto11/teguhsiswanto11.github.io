@@ -145,7 +145,7 @@ p.copyright {
 /* Carousel */
 .carousel-indicators {
   bottom: 84% /*20px*/;
-  left: 10%;
+  left: 13%;
 }
 
 /* Navigation */
@@ -184,6 +184,9 @@ p.copyright {
   background: url(../img/logo-talentbandung-white-small.png);
 }
 .logo-black{
+  background: url(../img/logo-talentbandung-black-small.png) ;
+}
+.logo{
   background: url(../img/logo-talentbandung-black-small.png) ;
 }
 .no-crash{
@@ -382,4 +385,10 @@ figure.snip1232 .author span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+
+/* CUSTOM*/
+.biru{
+  color: #127899;"
 }
