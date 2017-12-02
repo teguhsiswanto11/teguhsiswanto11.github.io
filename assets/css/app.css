@@ -386,6 +386,14 @@ figure.snip1232 .author span {
   background-repeat: no-repeat;
   background-position: center;
 }
+.thumbnail{
+  width: 100%;
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 /* CUSTOM*/
