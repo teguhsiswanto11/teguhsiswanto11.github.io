@@ -7,3 +7,6 @@ Tujuan Website Ini: Manarik pembaca(pengunjung website ini) supaya tertarik berw
 Project Console : https://console/firebase.google.com/project/my-mini-project-11/overview
 Hosting Url : https://my-mini-project-11.firebaseapp.com
 
+#api key
+AIzaSyByvLmID-R8v4kyBEAh05mn058IGPhy8Bc
+
