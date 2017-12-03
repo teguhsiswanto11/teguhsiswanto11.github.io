@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Cuaca dan Peta: Taman Lalu Lintas AISN</title>
+    <title>Tentang: Taman Lalu Lintas AISN</title>
     <link rel="icon" href="https://goo.gl/images/PEmjnV">
 
     <!-- Bootstrap Core CSS -->
@@ -31,12 +31,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-       #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
+  
   </head>
   <body>
       <!-- Navigation -->
@@ -60,9 +55,9 @@
         <li class=""><a href="jadwal.html"> <i class="icon-clock"></i> Jadwal &#38; Harga</a></li>
         <li class=""><a href="objek_wisata.html"> <i class="icon-directions"></i> Objek Wisata</a></li>
         <li class=""><a href="fasilitas.html"> <i class="icon-layers"></i> Fasilitas</a></li>
-        <li class="active"><a href="cuaca_peta.html"> <i class="icon-map"></i> Cuaca &#38; Peta</a></li>
+        <li class=""><a href="cuaca_peta.html"> <i class="icon-map"></i> Cuaca &#38; Peta</a></li>
         <li class=""><a href="kontak.html"> <i class="icon-phone"></i> Kontak</a></li>
-        <li class=""><a href="tentang.html"> <i class="icon-user"></i> Tentang</a></li>
+        <li class="active"><a href="tentang.html"> <i class="icon-user"></i> Tentang</a></li>
         <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -74,7 +69,7 @@
     <div class="container">
         
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                       <br>
                       <br>
                       <br>
@@ -82,34 +77,18 @@
                       <br>
                       <br>
                       <br>
-                      <h3>Google Maps</h3>
-                      <div id="map"></div>
-
-                      <h3>Cuaca Hari Ini</h3>
-                      <a href="https://www.accuweather.com/en/id/bandung/208977/weather-forecast/208977" class="aw-widget-legal">
-<!--
-By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
--->
-</a><div id="awcc1512269184397" class="aw-widget-current"  data-locationkey="208977" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1512269184397"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
-
-                      <script>
-                        function initMap() {
-                          // var uluru = {lat: -25.363, lng: 131.044};
-                          var uluru = {lat: -6.911069, lng: 107.613487};
-                          var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 15,
-                            center: uluru
-                          });
-                          var marker = new google.maps.Marker({
-                            position: uluru,
-                            map: map
-                          });
-                        }
-
-                      </script>
-                      <script async defer
-                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByvLmID-R8v4kyBEAh05mn058IGPhy8Bc&callback=initMap">
-                      </script>
+                      <h3> Tentang Pembuat :</h3>
+                      <table class="table">
+                        <tr>
+                          <td>Nama  </td>
+                          <td>: Teguh Siswanto</td>
+                        </tr>
+                        <tr>
+                          <td>Link project </td>
+                          <td>: <a href="https://github.com/teguhsiswanto11/teguhsiswanto11.github.io">teguhsiswanto11.github.io</a></td>
+                        </tr>
+                      </table>
+                      
 
  
                     </div>
